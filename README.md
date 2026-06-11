@@ -19,3 +19,25 @@ Cuando tengas la URL final, actualiza en `index.html`:
 - `twitter:image` con URL absoluta
 
 Por ahora las imágenes sociales usan rutas relativas para funcionar dentro del mismo root.
+
+
+## Premios
+
+Los SVG de premios están en el root y el HTML los referencia con rutas relativas:
+
+- `awards_cannes.svg`
+- `awards_clio.svg`
+- `awards_dad.svg`
+- `awards_lia.svg`
+- `awards_newyork.svg`
+- `awards_ojo.svg`
+- `awards_oneshow.svg`
+
+
+## Hero
+
+La foto principal está en el root como:
+
+- `mike_work.webp`
+
+El HTML la referencia con `./mike_work.webp`.
